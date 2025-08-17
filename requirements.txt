@@ -1,0 +1,9 @@
+pytest
+requests
+Flask
+boto3
+#click
+#pydantic
+#fastapi
+#poetry
+#uv
