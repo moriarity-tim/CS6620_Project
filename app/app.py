@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
-from app.dynamodb_handler import DynamoDBHandler
-from app.s3_handler import S3Handler
+from dynamodb_handler import DynamoDBHandler
+from s3_handler import S3Handler
 
 app = Flask(__name__)
 dynamodb_handler = DynamoDBHandler()
